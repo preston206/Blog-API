@@ -13,7 +13,7 @@ BlogPosts.create('testTitle', 'lorem ipsum lor em ipsum lorem ip sum', 'testAuth
 app.use(express.static('public'));
 
 app.get('/blog-posts', (req, res) => {
-    res.json(BlogPosts.get());
+  res.json(BlogPosts.get());
 })
 
 app.post('/blog-posts', jsonParser, (req, res) => {
