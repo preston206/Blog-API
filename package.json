@@ -1,16 +1,17 @@
 {
-  "name": "blog-api",
+  "name": "thinkful-blog-api-project",
   "version": "1.0.0",
-  "description": "Thinkful Blog API CRUD app",
+  "description": "Thinkful.com API CRUD app exercise",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/preston206/Blog-API.git"
   },
-  "author": "",
+  "author": "bpr",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/preston206/Blog-API/issues"
